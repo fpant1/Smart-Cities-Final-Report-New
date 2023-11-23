@@ -1,0 +1,15 @@
+\begin{table}[tbh!]
+\caption{Model 2 Additional Assumptions and Limitation}
+\label{tab: model 2 assumption}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|p{0.5cm}|p{8cm}|p{10cm}|p{0.6cm}|} 
+\hline
+\textbf{No.} & \textbf{Assumption}                                                        & \textbf{Limitation}                                                                                                                                           & \textbf{Ref.} \\ \hline
+\textbf{11}   & The fluid flow is fully developed. Even if the flow rate changes the friction factor will only be worked out at a constant flow value.                              &    Once again this ignores the acceleration or deceleration of the fluid meaning any dynamic frictional effects will be ignored.   &        \cite{mainmodelpaper}       \\ \hline
+\textbf{12}   & The assumption that the valve in the system acts as a gate valve \cite{29_3_2ValveTypes} has been made. This is so that values from literature can be easily used and the value doesn't need to be measured from experimental data. & If there are other valves being used the \(K\) value may not be accurate enough and could produce inaccuracies in the model. However, since it is a gate valve the \(K\) value can change depending on how wide open it is so most valves can be approximated using this. & \cite{fluidmechanicstextbook}    \\ \hline
+\textbf{13} & The bend in the penstock is at 45\(^o\). Once again this is so that literature can be used instead of experimental data which isn't readily available. & If the bend is at a slightly different angle the resulting loss may be less or more producing an inaccuracy in the model. &   \cite{fluidmechanicstextbook}   \\ \hline
+\textbf{14} & The exit of the reservoir is said to attenuate to 30\(^o\), this is the most accurate representation of how the reservoir and penstock connect. & There will be some additional losses as the sharp edges are being ignored, but the overall effect of a reduction in diameter is being captured which is much larger than that effect of the corners in this situation. &  \cite{klossfactors} \\ \hline
+\textbf{15} & The flow in the split is assumed to travel down the branch splitting which is at 45\(^o\). & The angle of the split is an overestimate but it is the only splitting coefficient that was found and that has been tested. &  \cite{Kvaluesforloss}\\ \hline
+\end{tabular}%
+}
+\end{table}

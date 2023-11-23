@@ -1,0 +1,14 @@
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[tbh!]
+\caption{Model 1 Additional Assumptions and Limitation}
+\label{tab: model 1 assumption}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|p{0.5cm}|p{8cm}|p{10cm}|p{0.6cm}|} 
+\hline
+\textbf{No.} & \textbf{Assumption}                                                        & \textbf{Limitation}                                                                                                                                           & \textbf{Ref.} \\ \hline
+\textbf{9}   & The reservoirs are shaped as regular cuboids.                              & If the reservoirs have an irregular shape the height may change at a different rate (that isn't constant) and this effect won't be taken into account.       &        \cite{improvedmomentummodel}       \\ \hline
+\textbf{10}   & The mass flow rate for generating is positive and for pumping is negative. & There is no limitation to this assumption however, it must be noted that the mass flow rate should only be negated after the actual flow rate is calculated. & \textbf{}     \\ \hline
+\end{tabular}%
+}
+\end{table}
